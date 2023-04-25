@@ -1,3 +1,11 @@
+import SideBarFriend from "./SideBarFriend";
+import SideBarNewMessage from "./SideBarNewMessage";
+
 export default function Sidebar() {
-  return <div className="h-full w-1/3 bg-green-600">Sidebar</div>;
+  return (
+    <div className="h-full w-1/3 bg-white border-r">
+      <SideBarNewMessage />
+      <SideBarFriend />
+    </div>
+  );
 }
