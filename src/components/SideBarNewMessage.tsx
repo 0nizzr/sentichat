@@ -1,6 +1,6 @@
 export default function SideBarNewMessage() {
   return (
-    <div className="flex items-center justify-center h-20 border-b cursor-pointer hover:text-cyan-800">
+    <div className="flex items-center justify-center h-[5.063rem] border-b cursor-pointer hover:text-cyan-800">
       <h2 className="font-bold">Write new message</h2>
       <svg
         fill="none"
